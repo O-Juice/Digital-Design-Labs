@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab5/TaskTwo/Test.ncd
+OUTFILE=/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab5/TaskTwo/Test.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab5/TaskTwo
+LICENSE=WebPack
+USER_INFO=211419048_0_0_431

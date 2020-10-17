@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab6/TaskOne/mALUTesting_isim_beh.exe" -prj "/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab6/TaskOne/mALUTesting_beh.prj" "work.mALUTesting" "work.glbl" 

@@ -1,0 +1,4 @@
+verilog work "D_FF.v"
+verilog work "Moore_sequential.v"
+verilog work "Sim.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

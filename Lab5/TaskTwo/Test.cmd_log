@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab5/TaskTwo/Test.xst" -ofn "/home/work/Documents/UC/Freshman/EECE2060C/Labs/Lab5/TaskTwo/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ImpCon.ucf -p xc3s100e-cp132-4 Test.ngc Test.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -t 1 Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf ImpCon.ucf 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+bitgen -intstyle ise -f Test.ut Test.ncd 
